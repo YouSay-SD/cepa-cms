@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_hero_heroes",
+  "info": {
+    "displayName": "hero",
+    "icon": "allergies",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext",
+      "required": true
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "ctaTextPrimary": {
+      "type": "string"
+    },
+    "ctaLinkPrimary": {
+      "type": "string"
+    },
+    "ctaTextSecondary": {
+      "type": "string"
+    }
+  }
+}

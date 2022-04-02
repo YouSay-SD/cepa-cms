@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_progressivity_progressivities",
+  "info": {
+    "displayName": "progressivity",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "countries": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::country.country"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

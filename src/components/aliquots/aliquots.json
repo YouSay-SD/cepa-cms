@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_aliquots_aliquots",
+  "info": {
+    "displayName": "aliquots",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "aliquot_categories",
+  "info": {
+    "singularName": "aliquot-category",
+    "pluralName": "aliquot-categories",
+    "displayName": "Categorias de Alicuotas",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "aliquots": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::aliquot.aliquot",
+      "mappedBy": "category"
+    }
+  }
+}

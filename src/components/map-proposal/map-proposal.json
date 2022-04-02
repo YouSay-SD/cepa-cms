@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_map_proposal_map_proposals",
+  "info": {
+    "displayName": "MapProposal",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "countries": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::country.country"
+    }
+  }
+}

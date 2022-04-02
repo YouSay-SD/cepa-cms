@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_content_proposal_content_proposals",
+  "info": {
+    "displayName": "contentProposal",
+    "icon": "ambulance",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titleProposal": {
+      "type": "string"
+    },
+    "descriptionProposal": {
+      "type": "text"
+    }
+  }
+}

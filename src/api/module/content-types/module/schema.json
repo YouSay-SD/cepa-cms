@@ -1,0 +1,52 @@
+{
+  "kind": "singleType",
+  "collectionName": "modules",
+  "info": {
+    "singularName": "module",
+    "pluralName": "modules",
+    "displayName": "Modules",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "footer": {
+      "displayName": "Footer",
+      "type": "component",
+      "repeatable": false,
+      "component": "footer.footer"
+    },
+    "ctaBottom": {
+      "type": "component",
+      "repeatable": false,
+      "component": "cta-bottom.cta-bottom"
+    },
+    "mapProposal": {
+      "type": "component",
+      "repeatable": false,
+      "component": "map-proposal.map-proposal"
+    },
+    "mapTaxHavens": {
+      "type": "component",
+      "repeatable": false,
+      "component": "map-tax-havens.map-tax-havens"
+    },
+    "aliquots": {
+      "type": "component",
+      "repeatable": false,
+      "component": "aliquots.aliquots"
+    },
+    "mapProgressivity": {
+      "type": "component",
+      "repeatable": false,
+      "component": "progressivity.progressivity"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hero.hero"
+    }
+  }
+}

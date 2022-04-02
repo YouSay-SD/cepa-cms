@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_cta_bottom_cta_bottoms",
+  "info": {
+    "displayName": "Cta Bottom",
+    "icon": "align-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "ctaText": {
+      "type": "string"
+    },
+    "ctaLink": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_map_tax_havens_map_tax_havens",
+  "info": {
+    "displayName": "mapTaxHavens",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "countries": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::country.country"
+    }
+  }
+}

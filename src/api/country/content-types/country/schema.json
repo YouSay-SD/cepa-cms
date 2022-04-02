@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "countries",
+  "info": {
+    "singularName": "country",
+    "pluralName": "countries",
+    "displayName": "Paises",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "progressiveness": {
+      "type": "integer",
+      "required": true
+    },
+    "taxPressure": {
+      "type": "integer",
+      "required": true
+    },
+    "graphic": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "isApproved": {
+      "type": "boolean"
+    },
+    "lat": {
+      "type": "string"
+    },
+    "lng": {
+      "type": "string"
+    },
+    "contentProposal": {
+      "displayName": "contentProposal",
+      "type": "component",
+      "repeatable": true,
+      "component": "content-proposal.content-proposal"
+    },
+    "resultProposal": {
+      "type": "richtext"
+    }
+  }
+}
