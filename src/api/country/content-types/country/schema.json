@@ -36,10 +36,12 @@
       "type": "boolean"
     },
     "lat": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "lng": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "contentProposal": {
       "displayName": "contentProposal",

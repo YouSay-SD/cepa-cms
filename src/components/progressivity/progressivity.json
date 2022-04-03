@@ -13,10 +13,11 @@
       "target": "api::country.country"
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "description": {
-      "type": "string"
+      "type": "text"
     }
   }
 }

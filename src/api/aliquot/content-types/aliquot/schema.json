@@ -29,6 +29,13 @@
       "relation": "manyToOne",
       "target": "api::aliquot-category.aliquot-category",
       "inversedBy": "aliquots"
+    },
+    "flag": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

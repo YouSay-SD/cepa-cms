@@ -2,12 +2,14 @@
   "collectionName": "components_aliquots_aliquots",
   "info": {
     "displayName": "aliquots",
-    "icon": "align-center"
+    "icon": "align-center",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "description": {
       "type": "text"
