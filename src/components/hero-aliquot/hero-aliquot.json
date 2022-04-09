@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_hero_aliquot_hero_aliquots",
+  "info": {
+    "displayName": "heroAliquot",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

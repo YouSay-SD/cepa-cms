@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "aliquotes_page",
+  "info": {
+    "singularName": "aliquots-page",
+    "pluralName": "aliquotes-page",
+    "displayName": "Alicuotas Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ctaBottom": {
+      "type": "component",
+      "repeatable": false,
+      "component": "cta-bottom.cta-bottom"
+    },
+    "heroAliquot": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hero-aliquot.hero-aliquot"
+    }
+  }
+}
