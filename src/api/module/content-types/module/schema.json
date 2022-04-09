@@ -12,12 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "footer": {
-      "displayName": "Footer",
-      "type": "component",
-      "repeatable": false,
-      "component": "footer.footer"
-    },
     "ctaBottom": {
       "type": "component",
       "repeatable": false,
