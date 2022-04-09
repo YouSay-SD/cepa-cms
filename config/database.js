@@ -7,7 +7,7 @@ module.exports = ({ env }) => ({
       database: env('DATABASE_NAME', 'cepa'),
       user: env('DATABASE_USERNAME', 'root'),
       password: env('DATABASE_PASSWORD', 'Coscaana5!'),
-      ssl: env.bool('DATABASE_SSL', false),
+      ssl: { rejectUnauthorized: env.bool('DATABASE_SSL_SELF', false), },
     },
   },
 });
