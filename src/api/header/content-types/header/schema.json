@@ -19,6 +19,18 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "firstTextLink": {
+      "type": "string"
+    },
+    "secondTextLink": {
+      "type": "string"
+    },
+    "thirdTextLink": {
+      "type": "string"
+    },
+    "fourthTextLink": {
+      "type": "string"
     }
   }
 }
