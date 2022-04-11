@@ -36,6 +36,12 @@
       ],
       "type": "media",
       "multiple": false
+    },
+    "categoryType": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::aliquot-category-type.aliquot-category-type",
+      "inversedBy": "aliquots"
     }
   }
 }

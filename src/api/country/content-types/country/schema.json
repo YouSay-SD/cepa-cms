@@ -17,11 +17,11 @@
       "required": true
     },
     "progressiveness": {
-      "type": "integer",
+      "type": "decimal",
       "required": true
     },
     "taxPressure": {
-      "type": "integer",
+      "type": "decimal",
       "required": true
     },
     "graphic": {
