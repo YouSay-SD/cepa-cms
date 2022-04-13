@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "country_categories_tax_havens",
+  "info": {
+    "singularName": "country-categories-tax-haven",
+    "pluralName": "country-categories-tax-havens",
+    "displayName": "Categorias de Paises (Paraisos Fiscales)",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "unique": false,
+      "required": true
+    },
+    "countries": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::country.country",
+      "mappedBy": "categoryTaxHaven"
+    }
+  }
+}

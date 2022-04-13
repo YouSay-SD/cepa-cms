@@ -51,6 +51,19 @@
     },
     "resultProposal": {
       "type": "richtext"
+    },
+    "categoryTaxHaven": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::country-categories-tax-haven.country-categories-tax-haven",
+      "inversedBy": "countries"
+    },
+    "flag": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
