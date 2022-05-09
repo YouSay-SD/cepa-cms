@@ -21,6 +21,18 @@
     },
     "info": {
       "type": "text"
+    },
+    "ctaText": {
+      "type": "string"
+    },
+    "ctaLink": {
+      "type": "string"
+    },
+    "ctaText2": {
+      "type": "string"
+    },
+    "ctaLink2": {
+      "type": "string"
     }
   }
 }
