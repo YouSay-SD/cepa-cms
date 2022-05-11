@@ -25,14 +25,22 @@
     "ctaText": {
       "type": "string"
     },
-    "ctaLink": {
-      "type": "string"
-    },
     "ctaText2": {
       "type": "string"
     },
-    "ctaLink2": {
-      "type": "string"
+    "graphic": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "graphic2": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
