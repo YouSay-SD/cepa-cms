@@ -31,17 +31,26 @@
       "inversedBy": "aliquots"
     },
     "flag": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "categoryType": {
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::aliquot-category-type.aliquot-category-type",
       "inversedBy": "aliquots"
+    },
+    "earningsFallback": {
+      "type": "string",
+      "maxLength": 5
+    },
+    "ownershipFallback": {
+      "type": "string",
+      "maxLength": 5
     }
   }
 }

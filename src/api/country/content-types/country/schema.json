@@ -59,11 +59,20 @@
       "inversedBy": "countries"
     },
     "flag": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "progressivenessFallback": {
+      "type": "string",
+      "maxLength": 5
+    },
+    "taxPressureFallback": {
+      "type": "string",
+      "maxLength": 5
     }
   }
 }
