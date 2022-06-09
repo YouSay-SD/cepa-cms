@@ -16,10 +16,10 @@
       "type": "string"
     },
     "earnings": {
-      "type": "integer"
+      "type": "decimal"
     },
     "ownership": {
-      "type": "integer"
+      "type": "decimal"
     },
     "description": {
       "type": "richtext"
