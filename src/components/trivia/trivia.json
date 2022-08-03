@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_trivia_trivias",
+  "info": {
+    "displayName": "Trivia",
+    "icon": "dice-d6",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "triviaTitle": {
+      "type": "string"
+    },
+    "triviaDescription": {
+      "type": "richtext"
+    },
+    "TriviaItem": {
+      "displayName": "TriviaItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "trivia-item.trivia-item"
+    }
+  }
+}

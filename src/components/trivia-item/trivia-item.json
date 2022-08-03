@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_trivia_item_trivia_items",
+  "info": {
+    "displayName": "TriviaItem",
+    "icon": "bullseye",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "triviaQuestion": {
+      "type": "string",
+      "required": true
+    },
+    "TriviaOptions": {
+      "displayName": "TriviaOptions",
+      "type": "component",
+      "repeatable": true,
+      "component": "trivia-options.trivia-options",
+      "required": true
+    },
+    "answer": {
+      "type": "text"
+    }
+  }
+}

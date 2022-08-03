@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_trivia_options_trivia_options",
+  "info": {
+    "displayName": "TriviaOptions",
+    "icon": "bacon",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "triviaOption": {
+      "type": "string"
+    },
+    "isCorrect": {
+      "type": "boolean"
+    }
+  }
+}

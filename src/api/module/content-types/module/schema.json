@@ -41,6 +41,11 @@
       "type": "component",
       "repeatable": false,
       "component": "hero.hero"
+    },
+    "Trivia": {
+      "type": "component",
+      "repeatable": false,
+      "component": "trivia.trivia"
     }
   }
 }
