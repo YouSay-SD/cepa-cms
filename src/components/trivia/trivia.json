@@ -7,6 +7,14 @@
   },
   "options": {},
   "attributes": {
+    "showTrivia": {
+      "type": "boolean"
+    },
+    "answersToWin": {
+      "type": "integer",
+      "required": true,
+      "min": 1
+    },
     "triviaTitle": {
       "type": "string"
     },
