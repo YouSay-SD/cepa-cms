@@ -25,13 +25,13 @@
       "type": "string"
     },
     "triviaWinDescription": {
-      "type": "string"
+      "type": "text"
     },
     "triviaLoseTitle": {
       "type": "string"
     },
     "triviaLoseDescription": {
-      "type": "string"
+      "type": "text"
     },
     "TriviaItem": {
       "displayName": "TriviaItem",
