@@ -21,6 +21,18 @@
     "triviaDescription": {
       "type": "richtext"
     },
+    "triviaWinTitle": {
+      "type": "string"
+    },
+    "triviaWinDescription": {
+      "type": "string"
+    },
+    "triviaLoseTitle": {
+      "type": "string"
+    },
+    "triviaLoseDescription": {
+      "type": "string"
+    },
     "TriviaItem": {
       "displayName": "TriviaItem",
       "type": "component",
